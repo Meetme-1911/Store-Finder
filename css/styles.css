@@ -147,16 +147,17 @@ body {
   }
   
   /* Contact Us */
- #ContactUs{
+
+ #ContactUs {
      background-color: white ;
      color: black ;
      margin: 30px ;
  }
- #ContactUs i{
+ #ContactUs i {
     color: black;
     margin: 10px;
  }
-  #ContactUs a :hover{
+  #ContactUs a :hover {
    color: blue;
  }
  .platforms{

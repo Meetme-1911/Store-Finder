@@ -148,9 +148,9 @@ body {
   
   /* Contact Us */
  #ContactUs{
-     background-color: white;
-     color: black;
-     margin: 30px;
+     background-color: white ;
+     color: black ;
+     margin: 30px ;
  }
  #ContactUs i{
     color: black;
@@ -171,15 +171,6 @@ body {
  .Or{
    margin: 5%;
  }
-
-
-
-
-
-
-
-  
-  
   /* media queries */
   
   @media (max-width: 1140px) {

@@ -129,16 +129,7 @@ body {
 .carousel-item a :hover{
     color: grey;
 }
-  /* pricing styling */
-  
-  #pricing{
-    padding: 100px;
-    text-align: center;
-  }
-  .pr-col{
-    padding: 3% 2%;
-  }
-  
+
   /* Call to Action  */
   
   #cta{
@@ -157,22 +148,36 @@ body {
   
   /* Contact Us */
  #ContactUs{
-     background-color: #696969;
+     background-color: #fff;
+     color: black;
+     margin: 30px;
+ }
+ #ContactUs i{
+    color: black;
+    margin: 10px;
+ }
+  #ContactUs a :hover{
+   color: blue;
+ }
+ .platforms{
+   margin: 7%;
+ }
+ .platforms > h1{
+   line-height: 2;
+ }
+ .e-mail > h1{
+  line-height: 2;
+ }
+ .Or{
+   margin: 5%;
  }
 
 
 
-  /* footer */
-  
-  #footer{
-    margin: 30px;
-  }
-  #footer i {
-    margin: 10px;
-  }
-  #footer a :hover{
-    color: black;
-  }
+
+
+
+
   
   
   /* media queries */

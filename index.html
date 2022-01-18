@@ -19,14 +19,11 @@
 
 </head>
 <body>
-
-        
-
     <section id="title">
         <div class="container-fluid">
-          <nav class="navbar navbar-expand-md navbar-dark">
+         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-              <a href="#" class="navbar-brand">Store Finder</a>
+              <a href="" class="navbar-brand">Store Finder</a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -40,10 +37,13 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav ms-auto">
-                  <a class="nav-link" aria-current="page" href="#"></a>
+                  <a class="nav-link" aria-current="page" href="#title">Home</a>
                   <a class="nav-link" href="#features">Features</a>
                   <a class="nav-link" href="#Laptops">Laptops</a>
-                  <a class="nav-link" href="#ContactUs">Contact Us</a>
+                  <!-- <a class="nav-link" href="">Stores</a> -->
+                  <!-- <a class="nav-link" href="#About">About</a> -->
+                  <a class="nav-link" href="#ContactUs">Contact</a>
+                  <a class="nav-link" href="account.html">Account</a>
                 </div>
               </div>
             </div>
@@ -62,11 +62,11 @@
       
               <div class="col-lg-6 lh">
                 <h1>Get The Location of your choice of Laptops around you.</h1>
-                <a href="Stores.html"><button type="button" class="btn btn-dark btn-lg dnld-btn">
+                <a href="LogIn.html"><button type="button" class="btn btn-dark btn-lg dnld-btn">
                   <i class="fas fa-store"></i> Start Finding
                 </button>
-                <a href="#" ><button type="button" class="btn btn-outline-light btn-lg dnld-btn">
-                  <i class="fas fa-user"></i> Log In as a Customer</button></a>
+                <a href="LogIn.html" ><button type="button" class="btn btn-outline-light btn-lg dnld-btn">
+                  <i class="fas fa-user"></i> Login as a customer </button></a>
               </a>
               </div>
               <div class="col-lg-6">
@@ -82,12 +82,12 @@
               <div class="row">
                 <div class="col-lg-6 lh">
                   <h1>Expand Your Reach On Customers Let Them Know About You. </h1>
-                  <a href="Stores.html"><button type="button" class="btn btn-dark btn-lg dnld-btn">
-                    <i class="fas fa-users"></i> Register As A Retailer
+                  <a href="Register.html"><button type="button" class="btn btn-dark btn-lg dnld-btn">
+                    <i class="fas fa-users"></i> Register as a retailer
                   </button>
                 </a>
-                <a href="#" ><button type="button" class="btn btn-outline-light btn-lg dnld-btn">
-                  <i class="fas fa-user"></i> Log In as a Retailer</button></a>
+                <a href="LogInRe.html" ><button type="button" class="btn btn-outline-light btn-lg dnld-btn">
+                  <i class="fas fa-user"></i> Login as a retailer </button></a>
                 </a>
                 </div>
                 <div class="col-lg-6">
@@ -101,7 +101,7 @@
             </div>
             </div>
           </div>
-          </div>
+          
           </section>
 
     <!-- Features -->
@@ -135,55 +135,61 @@
         </div>
       </section>
   
-      <!-- Laptops -->
+      <!-- Featured Laptops -->
       <section id="Laptops" class="text-center">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="false" data-bs-ride="carousel"  data-bs-interval="3000">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <h2 id="Laptops-title"> Featured Laptops </h2>
+        <hr />
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="false" data-bs-ride="carousel"  data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active fp-img">
+          <a href=""><img src="Images/Lenovo.jpg" class="img-fluid" alt="Asus Laptop Image"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="#"><h5> Lenovo Ideapad s540 </h5></a>
+            <h6>&#8377 69,999</h6>
+          </div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href=""><img src="Images/Asus.jpg" class="img-fluid" alt="Asus Laptop Image"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <a href="#"><h5>Asus Laptops</h5></a>
-            </div>
+        <div class="carousel-item fp-img">
+          <a href=""><img src="Images/Hp.jpg" class="img-fluid" alt="Hp Laptop Image"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="#"><h5>Hp 15 </h5></a>
+            <h6>&#8377 49,999</h6>
           </div>
-          <div class="carousel-item ">
-            <a href=""><img src="Images/Hp.jpg" class="img-fluid" alt="Hp Laptop Image"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <a href="#"><h5>Hp Laptops</h5></a>
-            </div>
+        </div>
+        <div class="carousel-item fp-img">
+          <a href=""><img src="Images/Asus.jpg" class="img-fluid" alt="Lenovo laptop Image"></a>
+          <div class="carousel-caption d-none d-md-block ">
+            <a href="#"><h5>Asus Zenbook 14</h5></a>
+            <h6>&#8377 69,999</h6>
           </div>
-          <div class="carousel-item">
-            <a href=""><img src="Images/Lenovo.jpg" class="img-fluid" alt="Lenovo laptop Image"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <a href="#"><h5>Lenovo Laptops</h5></a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href=""><img src="Images/Mac.jpg" class="img-fluid" alt="Macbook Image"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <a href="#"><h5>Mac Laptops </h5></a>
-            </div>
+        </div>
+        <div class="carousel-item fp-img ">
+          <a href=""><img src="Images/Mac.jpg" class="img-fluid" alt="Macbook Image"></a>
+          <div class="carousel-caption  d-none d-md-block">
+            <a href="#"><h5>Macbook Pro </h5></a>
+            <h6>&#8377 99,999</h6>
           </div>
         </div>
       </div>
-      <div id="cta" class="text-center">
-        <h3>Locate the Store Where Your Choice of Laptop Resides Today.</h3>
-        <a href="Stores.html"><button type="button" class="btn btn-outline-light btn-lg ct-btn">
-            <i class="fas fa-store"></i> Start Finding
-          </button>
-          </a>
-      </div>
-    </section>
+    </div>
+      </section>
 
+    <section id="newsletter">
+      <h1>Newsletter</h1>
+      <p>subscribe us for latest updates </p>
+      <input type="text" placeholder="Enter your E-mail"><br>
+      <input type="submit" class="btn btn-lg btn-danger btn-outline-dark text-light rounded-pill" value="Subscribe"> 
+     </section>
 
-    <!-- Contact US -->
-    <section id="ContactUs" class="text-center">
-      <div class="platforms">
+      <!-- Contact US --> 
+     <section id="ContactUs" class="text-center">
+       <div class="platforms">
         <h1>Contact Us On Different Platforms</h1>
         <a href=""><i class="fab fa-facebook fa-3x"></i></a>
         <a href=""><i class="fab fa-twitter fa-3x "></i></a>
@@ -191,7 +197,7 @@
       </div>
       <div class="Or">
         <h2>Or</h2>
-      </div>
+      </div> 
       </div class="e-mail">
       <h1>
         Email us By clicking Below </h1>
@@ -204,9 +210,41 @@
 
 
     <!-- Footer -->
-    <section id="footer" class="text-center">
-      <p> © Copyright 2021 Store Finder</p>
-    </section>
+    <section id="footer" class=" container-fluid text-light">
+      <div class="row">
+
+       <div class="col-md-4 text-center brand-info">
+         <a href="" class="logo"><i class="fas fa-shopping-bag"></i><h3>Store Finder</h3>       </a>
+         <p>Let us help you finding the best laptop for you . Locate stores and Laptops around you .</p>
+       </div>
+      
+
+      <div class="col-md-4 text-center links">
+        <h3>Links</h3>
+        <div class="nav-links">
+         <a href="#title">Home</a>
+         <a href="#features">Features</a>
+         <a href="#Laptops">Laptops</a>
+         <a href="#newsletter">Newsletter</a>
+         <a href="#ContactUs">Contact</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 text-center follow-us">
+       <h3>Follow us</h3>
+       <div class="follow-links">
+        <a href="" class="" >Facebook</a>
+        <a href="" class="">Twitter</a>
+        <a href="" class="">Instagram</a>
+       </div>
+     </div>
+
+   </div> 
+
+   <div class="credits text-center">
+     <p> &copy; Copyright @ 2021 Store Finder</p>
+   </div>
+   </section>
 
 
 
